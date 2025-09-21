@@ -14,3 +14,4 @@ make
 </p> 
 
 # 具体教程信息请访问我的微信公众号：机器人规划与控制研究所
+https://mp.weixin.qq.com/s/QqoNQpRLqHjDZA2xC3Rr2w

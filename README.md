@@ -11,6 +11,6 @@ make
 
 <p align="center">
   <img src="https://github.com/JackJu-HIT/Trajectory_Optimize_Method_Release/blob/master/result.png" width = "600" height = "600"/>
-</p> -->
+</p> 
 
 # 具体教程信息请访问我的微信公众号：机器人规划与控制研究所

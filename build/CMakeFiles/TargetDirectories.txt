@@ -1,0 +1,3 @@
+/Users/juchunyu/workspace/Trajectory_Optimize_Method_Release-master/build/CMakeFiles/main.dir
+/Users/juchunyu/workspace/Trajectory_Optimize_Method_Release-master/build/CMakeFiles/edit_cache.dir
+/Users/juchunyu/workspace/Trajectory_Optimize_Method_Release-master/build/CMakeFiles/rebuild_cache.dir

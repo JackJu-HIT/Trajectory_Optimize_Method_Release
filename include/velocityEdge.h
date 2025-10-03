@@ -47,11 +47,11 @@ public:
         double deltaAngle = fabs(point1[2] - point2[2]);
         double vel = dist / v3->estimate();
         double w   = tools::normalize_theta(deltaAngle) / v3->estimate();
-        std::cout << "real w =" << w << "real vel =" << vel << std::endl;
+        // std::cout << "real w =" << w << "real vel =" << vel << std::endl;
 
         _error[0] =  tools::penaltyBoundToInterval(vel, -cfg_->max_vel_x_backwards, cfg_->max_vel,cfg_->penalty_epsilon);
         _error[1] =  tools::penaltyBoundToInterval(w, cfg_->max_vel_theta,cfg_->penalty_epsilon);
-        std::cout << " vel _error[0] =" <<  _error[0] << " w  _error[1]" <<  _error[1] << std::endl;
+        // std::cout << " vel _error[0] =" <<  _error[0] << " w  _error[1]" <<  _error[1] << std::endl;
     }
 
     void setcfg(const TebConfig* cfg)

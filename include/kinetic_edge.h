@@ -52,7 +52,7 @@ public:
         // positive-drive-direction constraint
         Eigen::Vector2d angle_vec ( cos(point1[2]), sin(point1[2]) );	   
         _error[1] = tools::penaltyBoundFromBelow(deltaS.dot(angle_vec), 0,0);
-        std::cout << "EdgeKineticConstraint _error" << _error[0] << std::endl;
+        // std::cout << "EdgeKineticConstraint _error" << _error[0] << std::endl;
     }
 
     void setcfg(const TebConfig* cfg)
